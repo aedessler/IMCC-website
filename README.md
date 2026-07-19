@@ -5,12 +5,14 @@ Static GitHub Pages migration of [andrewdessler.com](https://www.andrewdessler.c
 ## What is migrated
 
 - The redesigned public homepage
-- The resources directory, with transitional links to all existing chapter pages
+- The resources directory and all fourteen chapter resource pages
+- The third-edition, second-edition, and Fall 2012 lecture indexes
+- The third-edition data page
 - The author biography and links
 - Responsive navigation, accessible markup, metadata, and original site imagery
 - Automatic deployment through GitHub Actions
 
-The detailed chapter pages, video indexes, exercises, and datasets still link to the Squarespace site so nothing is broken during the migration.
+Source links from the migrated pages continue to point to their original destinations.
 
 ## Run locally
 
@@ -32,7 +34,5 @@ Do not change DNS for `andrewdessler.com` until the remaining content has been m
 
 ## Next migration phase
 
-1. Copy the fourteen chapter resource pages and update their links to local URLs.
-2. Migrate the third-edition lecture index, then the archived video pages.
-3. Move downloadable exercises and datasets into versioned repository folders.
-4. Add a `CNAME` file and update DNS only after a complete content and redirect audit.
+1. Move downloadable datasets into versioned repository folders if local copies are desired.
+2. Add a `CNAME` file and update DNS only after a complete content and redirect audit.

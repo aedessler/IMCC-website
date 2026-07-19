@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#16383a">
+    <title>Data —</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header site-header--solid" data-header>
+      <a class="wordmark" href="index.html" aria-label="Introduction to Modern Climate Change home"><span class="wordmark__mark" aria-hidden="true">IMCC</span><span class="wordmark__text">Modern Climate Change</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Open navigation</span><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a aria-current="page" href="resources.html">Resources</a><a href="about.html">About the author</a></nav>
+    </header>
+
+    <main id="main">
+      <section class="detail-section">
+        <div class="wrap detail-layout">
+          <a class="detail-back" href="resources.html"><span aria-hidden="true">←</span> Book resources</a>
+          <article class="prose detail-prose">
+            <h1>Data for end-of-chapter problems</h1><p>This page is for the third edition of the textbook.  Note that data providers occasionally move the data, so it’s possible that the links are broken.  If you find a broken link, please <a href="mailto:adessler@tamu.edu">email me</a> to let me know.</p><p>The chapter 2 problems use data from Berkeley Earth.  Their main data page can be found <a href="http://berkeleyearth.org/data/" target="_blank">here</a>.  </p><p>problem 2.7: The most recent Berkeley Earth <span style="text-decoration:underline">annual</span> temperature data can be found <a href="https://berkeley-earth-temperature.s3.us-west-1.amazonaws.com/Global/Land_and_Ocean_summary.txt">here</a>.  This .txt file can be opened with Excel and it contains annual and global average temperatures as well as a smoothed time series that filters out the short-term variability.  It also contains two versions — one in which they use air temperature above sea ice and the other in which they use water temperature below sea ice.  These are quite similar and it doesn’t really matter which one you use.</p><p>problem 2.8: The most recent Berkeley Earth <span style="text-decoration:underline">monthly</span> temperature data can be found <a href="https://berkeley-earth-temperature.s3.us-west-1.amazonaws.com/Global/Land_and_Ocean_complete.txt">here</a>. This .txt file contains monthly and global average temperatures as well as annual, 5-year, 10-year, and 20-year smoothed time series, as well as uncertainties.  It also contains two versions — one in which they use air temperature above sea ice and the other in which they use water temperature below sea ice.  These are quite similar and it doesn’t really matter which one you use.</p><p>problem 2.10: The Berkeley Earth station data is located <a href="https://berkeleyearth.org/temperature-station-list/" target="_blank">here</a>. </p><p>problem 2.12: The Berkeley Earth annual average land temperatures (adjusted) can be found <a href="https://berkeley-earth-temperature.s3.us-west-1.amazonaws.com/Global/Complete_TAVG_summary.txt" target="_blank">here</a>.  The raw (unadjusted) annual average land temperatures are <a href="https://berkeley-earth-temperature.s3.us-west-1.amazonaws.com/Global/Raw_TAVG_summary.txt" target="_blank">here</a>.  </p><p>problem 5.9: The NOAA greenhouse gas data can be found <a href="https://gml.noaa.gov/dv/iadv/" target="_blank">here</a>.  On this page, you select your station, then select the gas you want to look at, then select time series.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap site-footer__grid"><div><p class="site-footer__title">Introduction to Modern Climate Change</p><p>Andrew Dessler · Cambridge University Press</p></div><nav aria-label="Footer navigation"><a href="resources.html">Resources</a><a href="about.html">About</a><a href="https://theclimatebrink.substack.com">The Climate Brink</a></nav><p class="site-footer__meta">© <span data-year>2026</span> Andrew Dessler</p></div>
+    </footer>
+  </body>
+</html>
